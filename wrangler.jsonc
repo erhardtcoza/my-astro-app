@@ -9,14 +9,13 @@
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
-	"pages_build_output_dir": "./dist",
+	{"pages_build_output_dir": "./dist" ,
 	"observability": {
-		"enabled": true
-	}
- [ "kv_namespaces":
-    {
-      "binding": "MY_TEST_KV",
-      "id": "2ccc7d59cb1d4c9fb80965f22ed054d5"]
+		"enabled": true}
+  },
+{"kv_namespaces":
+  "binding": "MY_TEST_KV"
+  "id": "2ccc7d59cb1d4c9fb80965f22ed054d5"
 }
   /**
    * Smart Placement
